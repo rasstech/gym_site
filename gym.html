@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rass</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<style>
+	body{
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		background-image: url("rass.jpg");
+	
+		
+		width: 100%;
+		height: 100%
+	}
+	.left{
+		/*border:2px solid red;*/
+		display: inline-block;
+		position: absolute;
+		left: 34;
+		top: 20;
+		background-repeat: repeat-x;
+		margin: 5px;
+
+	}
+	.mid{
+		/*border:2px solid blue;*/
+		display:block;
+		width: 50%;
+		margin: 20px auto;
+
+	}
+	.right{
+		position: absolute;
+		top:34px;
+		right:20px;
+		/*border:2px solid blue;*/
+		display: inline-block;
+
+
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li{
+		display: inline-block;
+		font-size: 20px;
+	}
+	.navbar li a{
+		color: white;
+		text-decoration:none;
+		padding-right: 15px;
+	}
+		.navbar li a:hover, .navbar li a.active{
+		text-decoration:underline;
+		color: gray;
+	}{
+		color: white;
+		text-decoration:none;
+		padding-right: 15px;
+	}
+	.btn{
+		margin: 0px 9px;
+		color: white;
+		background-color: black;
+		padding: 14px 14px;
+		boder:2px solid grey;
+		border-radius: 10px;
+		font-size: 15px;
+		cursor: pointer;
+}
+.btn:hover{
+	background-color: grey;
+}
+}
+@media screen and (max-width: 700px)
+{ body{
+	width: auto;
+}
+}
+ 
+</style>
+<body>
+	<header class="header">
+		<div class="left">
+			<img src="hulk.jfif">
+			<div style="text-align: center;">GYM BOY</div>
+			
+		</div>
+		<div class="mid">
+			<ul class="navbar">
+			<li><a hre="#" class="active">HOME</a></li>
+			<li><a hre="#">ABOUT US</a></li>
+			<li><a hre="#">FITNESS CALCULATOR</a></li>
+			<li><a hre="#">CONTACT US</a></li>
+		</div>
+		<div class="right">
+			<button class="btn">Call Us</button>
+			<button class="btn">Email Us</button>
+		</div>
+		
+
+	</header>
+<div style="color: red">
+	<p>this is the red</p>
+</div>	
+</body>
+</html>
